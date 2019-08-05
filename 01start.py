@@ -1,4 +1,4 @@
-isRaining = True
+isRaining = False
 isSunny = True
 
 if isRaining and isSunny:
