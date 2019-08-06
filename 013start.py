@@ -10,4 +10,4 @@ print(len(ages))
 
 i = 0
 for i in range(0, len[ages]):
-    print(i)
+    print(ages[i])
