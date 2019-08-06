@@ -13,3 +13,6 @@ for i in range(0, len(ages)):
     print(ages[i])
 
 print(len(['bob', 'mary', 'sam']))
+
+candycollection = {'bob': 10, 'mary': 7, 'sam': 18}
+print(len(candycollection))
