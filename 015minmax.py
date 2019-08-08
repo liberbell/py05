@@ -9,3 +9,4 @@ print(min('Angela', 'Bob'))
 print(max(playerOneScore, playerTwoScore))
 playerThreeScore = 14
 print(max(playerOneScore, playerTwoScore, playerThreeScore))
+print(max('Katharyn', 'Katie', ))
