@@ -2,3 +2,8 @@ myGPA = 3.6
 print(round(myGPA))
 amountofSalt = 1.4
 print(round(amountofSalt))
+
+apple = -1.2
+print(round(apple))
+google = -1.6
+print(round(google))
