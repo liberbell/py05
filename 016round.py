@@ -7,3 +7,8 @@ apple = -1.2
 print(round(apple))
 google = -1.6
 print(round(google))
+
+distanceAway = -13
+print(abs(distanceAway))
+lengthOfInGround = -2.5
+print(abs(lengthOfInGround))
