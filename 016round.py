@@ -16,3 +16,7 @@ print(abs(lengthOfInGround))
 chaceOfTails = 0.5
 InARowTails = 3
 print(pow(chaceOfTails, InARowTails))
+
+chanceOfOnece = .167
+inARowOne = 2
+print(pow(chanceOfOnece, inARowOne))
