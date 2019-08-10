@@ -7,3 +7,5 @@ sortedChildren = sorted(children)
 print(sortedChildren)
 print(sorted(children))
 print(sorted(['Sue', 'Jerry', 'Linda']))
+
+print(sorted('My favorite child is Linda'.split(), key=str.upper))
