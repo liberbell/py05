@@ -12,3 +12,6 @@ distanceAway = -13
 print(abs(distanceAway))
 lengthOfInGround = -2.5
 print(abs(lengthOfInGround))
+
+chaceOfTails = 0.5
+InARowTails = 3
