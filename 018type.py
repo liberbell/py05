@@ -20,4 +20,7 @@ print(type(c) == type(t))
 print(type(c) == type(convert))
 
 print(isinstance(c, Car))
-print(isinstance(t, Truck))
+print(isinstance(t, Car))
+
+if isinstance(r, range):
+    print(list(r))
