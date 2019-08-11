@@ -15,3 +15,4 @@ t = Truck()
 
 print(type(c))
 print(type(t))
+print(type(c) == type(t))
