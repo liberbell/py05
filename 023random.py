@@ -1,3 +1,3 @@
 import random
 
-print(random.dandom())
+print(random.random())
