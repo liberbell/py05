@@ -23,3 +23,6 @@ print(random.random())
 # print('Heads are {0} times, and Tails are {1} times.'.format(Heads, Tails))
 
 print('Your rolled a ' + str(random.randrange(1, 7)))
+
+lotteryWinners = random.sample(range(100), 5)
+print(lotteryWinners)
