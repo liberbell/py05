@@ -8,3 +8,4 @@ print(statistics.median(agesData))
 print(sorted(agesData))
 
 print(statistics.variance(agesData))
+print(statistics.stdev(agesData))
