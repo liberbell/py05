@@ -1,11 +1,11 @@
 import random
 
 print(random.random())
-decider = random.randrange(2)
-if decider == 0:
-    print('Heads')
-else:
-    print('Tails')
+# decider = random.randrange(2)
+# if decider == 0:
+#     print('Heads')
+# else:
+#     print('Tails')
 
 Heads = 0
 Tails = 0
@@ -20,4 +20,4 @@ for i in range(1000):
         print('Tails')
         Tails += 1
 
-Print('Heads are {0} times, and Tails are {0} times.'.format(Heads, Tails))
+print('Heads are {0} times, and Tails are {1} times.'.format(Heads, Tails))
