@@ -14,3 +14,6 @@ for c in itertools.cycle([1, 2, 3, 4]):
 
 for r in itertools.repeat(True):
     print(r)
+    x += 1
+    if x > 100:
+        break;
