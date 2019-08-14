@@ -6,3 +6,6 @@ for p in itertools.permutations(election):
 
 for p1 in itertools.permutations(election.values()):
     print(p1)
+
+colorsForPainting = ['Red', 'Blue', 'Purple', 'Orange', 'Yellow', 'Pink']
+for c in itertools.permutations(colorsForPainting, 2)
