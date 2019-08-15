@@ -8,4 +8,5 @@ myFile.write('GBJ: 100\nKHD: 90\nBBB: 89')
 myFile.close()
 
 myFile = open('scores.txt', 'r')
-print('reading...\n' + myFile.read())
+print('reading...\n' + myFile.read(10))
+print('reading again...\n' + myFile.read(10))
