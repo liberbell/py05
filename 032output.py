@@ -1,4 +1,4 @@
 print('Hello')
 
 color = input('What is your favorite color?')
-print(color)
+print('Your favorite color is:', color)
