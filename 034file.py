@@ -1,2 +1,2 @@
-myFile = ('scores.txt', 'r')
-print('My one Line: ' + myFile)
+myFile = open('scores.txt', 'r')
+print('My one Line: ' + myFile.readline())
