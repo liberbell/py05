@@ -9,4 +9,5 @@ myFile.close()
 
 myFile = open('scores.txt', 'r')
 print('reading...\n' + myFile.read(9))
+myFile.seek(0)
 print('reading again...\n' + myFile.read(9))
