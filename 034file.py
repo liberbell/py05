@@ -4,7 +4,8 @@ print('My one Line: ' + myFile.readline())
 myFile.seek(0)
 
 for line in myFile:
-    newHighScore = line.replace('BBB', 'PDJ')
-    print(newHighScore)
+    # newHighScore = line.replace('BBB', 'PDJ')
+    # print(newHighScore)
+    print(line)
 
 myFile.close()
