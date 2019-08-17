@@ -15,3 +15,5 @@ with zip.open('wishlist.txt') as f:
 
 # zip.extract('purchased.txt')
 zip.extractall()
+
+zip.close()
