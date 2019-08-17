@@ -8,3 +8,5 @@ for meta in zip.infolist():
 
 info = zip.getinfo('purchased.txt')
 print(info)
+
+print(zip.read('wishlist.txt'))
