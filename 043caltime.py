@@ -13,3 +13,6 @@ if testData > myFirstcorse:
 
 cal = calendar.month(2019, 6)
 print(cal)
+
+cal2 = calendar.week(2019. 6, 20)
+print(cal2)
