@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+import calendar
 
 now = datetime.now()
 
@@ -9,3 +10,6 @@ print(myFirstcorse.date())
 
 if testData > myFirstcorse:
     print('Comparison works')
+
+cal = calendar.month(2019, 6)
+print(cal)
