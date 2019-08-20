@@ -15,4 +15,4 @@ print(dedent_text)
 
 print('Fill:')
 print()
-print(textwrap(dedent_text, width=50))
+print(textwrap.fill(dedent_text, width=50))
