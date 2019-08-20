@@ -5,4 +5,6 @@ websitetext = '''
     unless they back down amid an intensifying row with Brussels before
     face-to-face talks with Angela Merkel in Berlin tomorrow.
     '''
+
 print('No Dedent:')
+print(textwrap.fill(websitetext))
