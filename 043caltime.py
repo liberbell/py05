@@ -18,3 +18,4 @@ cal2 = calendar.weekday(2019, 6, 20)
 print(cal2)
 
 print(calendar.isleap(1999))
+print(calendar.isleap(2000))
