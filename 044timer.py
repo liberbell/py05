@@ -8,3 +8,4 @@ if run == 'yes':
         print('>', second)
         time.sleep(1)
         second += 1
+    print('>', second)
