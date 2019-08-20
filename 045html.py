@@ -19,3 +19,9 @@ print()
 input = input('Put in HTML code:')
 parser.feed(input)
 print()
+
+htmlfile = open('sample.html', 'r')
+s = ''
+for line in htmlfile:
+    s += line
+parser.feed(s)
