@@ -12,3 +12,7 @@ print(textwrap.fill(websitetext))
 print('Dedent:')
 dedent_text = textwrap.dedent(websitetext).strip()
 print(dedent_text)
+
+print('Fill:')
+print()
+print(textwrap(dedent_text, width=50))
