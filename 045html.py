@@ -18,3 +18,4 @@ print()
 
 input = input('Put in HTML code:')
 parser.feed(input)
+print()
