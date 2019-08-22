@@ -2,4 +2,7 @@ import urllib.request
 import json
 import textwrap
 
-with urllib.request.urlopen('https://www.googleapis.com/books/v1/volumes?q=isbn:1101904224')
+with urllib.request.urlopen('https://www.googleapis.com/books/v1/volumes?q=isbn:1101904224'):
+    text = f.read()
+    decodedtext = text.decode('utf-8')
+    print(decodedtext)
