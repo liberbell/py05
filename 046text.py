@@ -22,3 +22,4 @@ print('Controring Indent:')
 print(textwrap.fill(dedent_text, initial_indent='   ', subsequent_indent='      '))
 
 print('Shorting Text')
+short = textwrap.shorten('Linkedin.com was great!')
