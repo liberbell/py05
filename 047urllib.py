@@ -7,3 +7,8 @@ with urllib.request.urlopen('https://www.googleapis.com/books/v1/volumes?q=isbn:
     decodedtext = text.decode('utf-8')
     print(textwrap.fill(decodedtext, width=50))
     print(decodedtext)
+
+print()
+
+obj = json.loads(decodedtext)
+print(obj['kind'])
