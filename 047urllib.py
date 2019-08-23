@@ -12,3 +12,5 @@ print()
 
 obj = json.loads(decodedtext)
 print(obj['kind'])
+
+print(obj['items'][0]['searchInfo'])
